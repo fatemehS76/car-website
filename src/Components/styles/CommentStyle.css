@@ -1,0 +1,30 @@
+.comment-container {
+    margin: 1.5vh 2vw;
+    background-color: azure;
+    display: inline-flex;
+    flex-direction: column;
+    padding: 2.5vh;
+    border: 2px solid transparent;
+    cursor: pointer;
+    text-align: end;
+    scroll-snap-align: center;
+    border-radius: 7px;
+    transition: 0.3s linear all;
+}
+.comment-name {
+    font-size: 1.4vw;
+    font-weight: bold;
+    color: rgb(75 71 71);
+}
+.comment-status {
+    font-size: 1vw;
+    color: rgb(64, 61, 61);
+    margin-bottom: 3.5vh;
+}
+.comment {
+    font-size: 1.2vw;
+    overflow:hidden;
+}
+.comment-container:hover {
+    opacity: 0.8;
+}

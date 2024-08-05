@@ -1,0 +1,28 @@
+footer {
+    padding: 6vh;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--maincolor);
+    color: var(--textcolor);
+    align-items: center;
+}
+.footer-title {
+    font-size: 2vw;
+    margin-bottom: 4vh;
+}
+footer p {
+    font-size: 1.5vw;
+    margin-bottom: 2vh;
+}
+.icons > * {
+    margin: 2vh;
+    padding: 0.4vw;
+    border-radius: 5px;
+    transform: scale(2);
+    cursor: pointer;
+    transition: 0.3s linear;
+}
+.icons > *:hover {
+    background-color: var(--textcolor);
+    color: var(--maincolor);
+}

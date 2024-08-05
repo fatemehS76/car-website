@@ -1,0 +1,49 @@
+* {
+    box-sizing:content-box;
+    border: none;
+    outline: none;
+}
+.login-form , .register-form {
+    width: 70%;
+    height: auto;
+    margin: 14vh auto;
+    padding: 4vh;
+    text-align: center;
+    background-color: var(--maincolor);
+    color: var(--textcolor);
+    border-radius: 5px;
+}
+.register-titile, .login-title {
+    font-size: 3vw;
+    margin-bottom: 2vh;
+}
+#user-inp, #password-inp {
+    width: 90%;
+    margin: 2vh auto;
+    padding: 2vh;
+    text-align: right;
+}
+.login-link {
+    margin: 3vh 2vw;
+    text-decoration: none;
+    color: var(--textcolor);
+}
+.login-link:hover {
+    text-decoration: solid var(--hovercolor) underline ;
+}
+.register-btn {
+    width: 90%;
+    margin-top: 3em;
+    padding: 1vh 2vh;
+    cursor: pointer;
+}
+input, button {
+    border-radius: 5px;
+}
+input:focus {
+    background-color: #eef4edf0;
+}
+input::placeholder {
+    color: var(--maincolor);
+    font-size: 1.4vw;
+}

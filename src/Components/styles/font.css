@@ -1,0 +1,34 @@
+@font-face {
+    font-family: vazir;
+    src: url(../fonts/Vazir-Regular.woff) format("woff");
+}
+* {
+    font-family: vazir;
+    /* box-sizing: border-box; */
+}
+:root {
+    --maincolor: #0b2545;
+    --textcolor: #eef4ed;
+    --hovercolor: #8da9c4;
+    --backgroundcolor : #13315c;
+}
+
+::-webkit-scrollbar {
+    width: 18px;
+}
+  
+
+::-webkit-scrollbar-track {
+    background: var(--textcolor);
+    
+}
+  
+
+::-webkit-scrollbar-thumb {
+    background: var(--maincolor);
+}
+  
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--backgroundcolor);
+}

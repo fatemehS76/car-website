@@ -1,0 +1,34 @@
+.market-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    background-color: var(--backgroundcolor);
+    color: var(--textcolor);
+    padding: 4vh;
+    margin: auto;
+}
+.market-container {
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1vh auto;
+}
+.market-title {
+    font-size: 3.5vw;
+    margin: 5vh 0;
+}
+.market-section a {
+    font-size: 1.5vw;
+    padding: 1vw;
+    text-decoration: none;    
+    background-color: var(--textcolor);
+    color: var(--maincolor);
+    font-weight: bold;
+    margin: 5vh 0;
+    border-radius: 5px;
+    transition: 0.3s linear;
+}
+.market-link:hover {
+    background-color: var(--hovercolor);
+}

@@ -1,0 +1,23 @@
+.main-section {
+    background-image: url("https://res.heraldm.com/content/image/2021/11/08/20211108000760_0.jpg") ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;    
+}
+.main-container {
+    padding: 8vh 2vw;
+    background-color: #eef4edba;
+    color: var(--maincolor);
+    width: 65%;
+    text-align: center;
+    margin: 15vh auto;
+}
+.main-title {
+    font-size: 3.8vw;
+    margin-bottom: 5%;
+}
+.main-container p {
+    font-size: 2vw;
+    font-weight: bold;
+}

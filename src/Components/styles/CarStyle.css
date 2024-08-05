@@ -1,0 +1,28 @@
+.car-container {
+    width: 25vw;
+    height: 35vh;
+    background-color: white;
+    color: var(--maincolor);
+    padding: 1vw;
+    margin: 2vw auto;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 4px solid transparent;
+    opacity: 1;
+    transition: 0.3s all linear;
+    font-size: 1.5vw;
+    font-weight: bold;
+}
+img {
+    display: block;
+    height: 75%;
+    background-color: aliceblue;
+}
+.car-info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+.car-container:hover {
+    opacity: 0.8;
+}

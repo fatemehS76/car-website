@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    list-style: none;
+}
+header {
+    padding: 2.5vh 3vw;
+    display: flex;
+    /* flex-direction: row; */
+    align-items: center;
+    background-color: var(--maincolor);
+    color: var(--textcolor);
+    position: relative;
+}
+.header-title {
+    margin-right: auto;
+    font-size: 4vw;
+}
+.header-list {
+    display: flex;
+    /* flex-direction: column; */
+}
+a {
+    text-decoration: none;
+    color: var(--textcolor);
+}
+li {
+    padding: 0.3em;
+    font-size: 2vw;
+    font-weight: bold;
+    margin: 0.8em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: linear 0.3s;
+    position: relative;
+}
+
+.header-btn {
+    font-size: 3vw;
+    margin: 1vh;
+    border-radius: 5px;
+    display: none;
+    cursor: pointer;
+    background-color: transparent;
+    transform: scale(1.5);
+    color: var(--textcolor);
+    transition: 0.3s linear;
+}
+.header-btn:hover {
+    color: var(--maincolor);
+}
+
+.list {
+    background-color: var(--hovercolor);
+    width: 40vw;
+    height: 100vh;
+    position: absolute;
+    right: 0;
+    top: 0;
+    text-align: right;
+}
+.list > * {
+    padding: 3vh ;
+    font-size: 3.4vw;
+    position: relative;
+}
+.user-icon {
+    font-size: 3vw;
+    margin: auto 1vw;
+    position: absolute;
+    right: 100%;
+}
+.list button {
+    font-size: 3vh;
+    background-color: transparent;
+    color: var(--maincolor);
+}
+li:hover {
+    background-color: var(--backgroundcolor);
+}
+.list li:hover {
+    background-color: var(--textcolor);
+}
