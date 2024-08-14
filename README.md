@@ -4,7 +4,7 @@ hi
 this project is made with : HTML,CSS,JS,REACT
 
 ## Installation 
-you can install the rpject by npm pakage manager 
+you can install the pakages by npm pakage manager 
 
 ```bash
 npm install
